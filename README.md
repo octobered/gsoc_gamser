@@ -5,6 +5,9 @@ gsoc_gamser/gamser.h
 TMath::GamSer: Original version in ROOT(https://root.cern).
 TMath::GamSer2: Edited with AVX support.
 
+gsoc_gamser/main.cpp
+Code to test two functions.
+
 On Haswell@2.3GHz (arukas.io docker Xeon E5-2650v3/512MB)
 TESTTIME = 10000000
 Compile command: g++ main.cpp -lm -mavx -O2 -o main
