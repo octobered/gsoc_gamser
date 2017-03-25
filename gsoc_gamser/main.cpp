@@ -1,5 +1,5 @@
 #include "gamser.h"
-#define TEST_TIME 1000000
+#define TEST_TIME 10000000
 #ifdef _WIN32
 #define USE_QPC // Use QueryPerformance In Windows
 #endif
@@ -68,7 +68,7 @@ int main() {
 	system("pause");
 #endif
 #ifdef __unix__
-	printf("Running on unix or unix-like system.");
+	printf("Running on unix or unix-like system.\n");
 #endif
 
 	return 0;
